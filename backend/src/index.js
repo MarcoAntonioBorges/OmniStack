@@ -29,6 +29,7 @@ app.use((req, res, next) => {
     return next();
 });
 
+
 app.use(cors());
 app.use(express.json());
 app.use(require('./routes'));
